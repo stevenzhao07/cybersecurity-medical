@@ -1,0 +1,8 @@
+cybersecurity-medical
+========================
+可插拔模块（lgd-skeleton/1.0）。医疗器械网络安全工具箱（IEC 81001-5-1 + SBOM）。
+入口: scripts/cyber_check.py
+元数据: module.json
+总入口: medical-ai-toolkit
+关联: delivery-guard, iec62304-software, samd-ra-toolkit
+许可: Apache-2.0 · 贡献者: @stevenzhao07 (MedXpert)

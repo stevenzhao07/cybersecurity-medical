@@ -1,0 +1,42 @@
+{
+  "id": "cybersecurity-medical",
+  "title": "医疗器械网络安全工具箱（IEC 81001-5-1 + SBOM）",
+  "description": "医疗器械网络安全合规工具：IEC 81001-5-1 安全开发生命周期检查单、FDA 预市网络安全指南（2023）要点清单、威胁建模提示（STRIDE 医疗适配）、SBOM（SPDX/CycloneDX）检查与组件漏洞关注项、安全更新与沟通计划模板。",
+  "triggers": {
+    "keywords": [
+      "cybersecurity",
+      "iec81001",
+      "sbom",
+      "spdx",
+      "cyclonedx",
+      "网络安全",
+      "威胁建模"
+    ],
+    "file_patterns": [
+      "cyber_check.py"
+    ],
+    "intents": [
+      "网络安全自查",
+      "SBOM 检查",
+      "威胁建模"
+    ]
+  },
+  "provides": [
+    "cybersecurity-medical",
+    "cyber-checklist",
+    "sbom-check",
+    "threat-model"
+  ],
+  "skills": [],
+  "needs_backends": [],
+  "license": "Apache-2.0",
+  "upstream": null,
+  "cost": "low",
+  "lazy": true,
+  "nested": true,
+  "entry": "scripts/cyber_check.py",
+  "deps": [],
+  "generated_by": "lgd-skeleton/1.0 (manual port from rea scaffold)",
+  "idea": "医疗器械网络安全检查单 + SBOM 校验（81001-5-1/FDA 2023）",
+  "extension_note": "新增检查项：在 CYBER_CATALOG 加一项。"
+}
